@@ -1,8 +1,8 @@
 {
 	"background_color": "#ffffff",
 	"theme_color": "#333333",
-	"name": "TODO",
-	"short_name": "TODO",
+	"name": "Sítio Itaguaçú",
+	"short_name": "Sítio Itaguaçú",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [
