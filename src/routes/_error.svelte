@@ -8,12 +8,13 @@
 <style>
 	h1, p {
 		margin: 0 auto;
+		text-align: center;
 	}
 
 	h1 {
 		font-size: 2.8em;
 		font-weight: 700;
-		margin: 0 0 0.5em 0;
+		margin: 5rem 0 0.5em 0;
 	}
 
 	p {
