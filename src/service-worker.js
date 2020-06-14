@@ -36,33 +36,17 @@ self.addEventListener('fetch', event => {
 
 	const url = new URL(event.request.url);
 
-	// don't try to handle e.g. data: URIs
 	if (!url.protocol.startsWith('http')) return;
 
-	// ignore dev server requests
 	if (url.hostname === self.location.hostname && url.port !== self.location.port) return;
 
-	// always serve static files and bundler-generated assets from cache
 	if (url.host === self.location.host && cached.has(url.pathname)) {
 		event.respondWith(caches.match(event.request));
 		return;
 	}
 
-	// for pages, you might want to serve a shell `service-worker-index.html` file,
-	// which Sapper has generated for you. It's not right for every
-	// app, but if it's right for yours then uncomment this section
-	/*
-	if (url.origin === self.origin && routes.find(route => route.pattern.test(url.pathname))) {
-		event.respondWith(caches.match('/service-worker-index.html'));
-		return;
-	}
-	*/
-
 	if (event.request.cache === 'only-if-cached') return;
 
-	// for everything else, try the network first, falling back to
-	// cache if the user is offline. (If the pages never change, you
-	// might prefer a cache-first approach to a network-first one.)
 	event.respondWith(
 		caches
 			.open(`offline${timestamp}`)
