@@ -11,5 +11,5 @@
 </style>
 
 <a href="https://api.whatsapp.com/send?phone=5511975905649&text=Ol%C3%A1!+estou+entrando+em+contato+atrav%C3%A9s+do+site+do+S%C3%ADtio+Itagua%C3%A7%C3%BA&source&data&app_absent&lang=pt_br" class="whatsapp">
-	<img src="whatsapp-icon.svg" alt="Whatsapp" />
+	<img src="assets/whatsapp-icon.svg" alt="Whatsapp" />
 </a>

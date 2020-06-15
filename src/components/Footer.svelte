@@ -39,10 +39,10 @@
 	<p>© 2020 Sítio Itaguaçú</p>
 	<div class="social-media">
 		<a href="https://instagram.com/sitioitaguacu">
-			<img src="instagram-icon.svg" alt="Instagram">
+			<img src="assets/instagram-icon.svg" alt="Instagram">
 		</a>
 		<a href="https://facebook.com/sitioitaguacubr">
-			<img src="facebook-icon.svg" alt="Facebook">
+			<img src="assets/facebook-icon.svg" alt="Facebook">
 		</a>
 	</div>
 </footer>

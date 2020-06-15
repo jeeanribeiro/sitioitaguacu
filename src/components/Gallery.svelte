@@ -4,7 +4,7 @@
 	const openModal = () => {
 		modal.style.visibility = "visible";
 		modal.style.opacity = 1;
-		img.src = `/pictures/sitio-${event.target.id}.jpg`;
+		img.src = `/assets/sitio-${event.target.id}.jpg`;
 	}
 
 	const closeModal = () => {
@@ -79,7 +79,7 @@
 <section id="gallery" class="gallery">
 	<ul>
 		{#each Array(72) as _, i}
-			<li><img src={`/pictures/thumb-${i}.jpg`} alt="Sítio Itaguaçú" on:click={openModal} id={i}></li>
+			<li><img src={`/assets/thumb-${i}.jpg`} alt="Sítio Itaguaçú" on:click={openModal} id={i}></li>
 		{/each}
 	</ul>
 </section>

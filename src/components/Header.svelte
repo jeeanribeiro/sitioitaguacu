@@ -17,6 +17,6 @@
 </style>
 
 <header>
-	<img src="/pictures/main.jpg" class="main-image" alt="Casa principal, casa de bonecas, piscina e churrasqueira" />
-	<img src="logo-sitio.png" class="logo" alt="Logo">
+	<img src="assets/main.jpg" class="main-image" alt="Casa principal, casa de bonecas, piscina e churrasqueira" />
+	<img src="assets/logo-sitio.png" class="logo" alt="Logo">
 </header>

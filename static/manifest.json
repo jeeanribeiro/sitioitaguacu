@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0505535ce64ab7d4fe715c3f1b2dd1974838c4013f1eee71ca5d5591c3d76398
-size 350
+{
+	"background_color": "#ffffff",
+	"theme_color": "#333333",
+	"name": "Sítio Itaguaçú",
+	"short_name": "Sítio Itaguaçú",
+	"display": "minimal-ui",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "assets/logo-192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "assets/logo-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
