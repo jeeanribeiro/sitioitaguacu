@@ -28,7 +28,6 @@
 		font-weight: 400;
 		height: 4rem;
 		justify-content: center;
-		margin-top: 4rem;
 		position: fixed;
 		top: 0;
 		transition-duration: 0.3s;
