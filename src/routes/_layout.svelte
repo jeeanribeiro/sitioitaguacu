@@ -17,7 +17,6 @@
 	}
 </style>
 
-<Banner />
 <Nav />
 
 <main>
