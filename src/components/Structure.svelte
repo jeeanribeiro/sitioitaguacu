@@ -57,7 +57,7 @@
 		</p>
 		<iframe
 			title="Vídeo vista área"
-			src="https://www.youtube.com/embed/BMUBjz_ZRE0"
+			src="https://www.youtube.com/embed/iKD-2wDuKZ8"
 			frameborder="0"
 			allow="accelerometer; autoplay; encrypted-media; gyroscope;
 			picture-in-picture"
