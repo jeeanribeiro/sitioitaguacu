@@ -38,6 +38,10 @@
 		background-color: #464;
 		box-shadow: 0 10px 5px #888;
 	}
+
+	.video {
+		width: 100%;
+	}
 </style>
 
 <section id="structure" class="structure">
@@ -55,14 +59,9 @@
 			ampla área do sítio permite a realização para eventos de até 400 pessoas
 			e comporta um grande número de carros.
 		</p>
-		<iframe
-			title="Vídeo vista área"
-			src="https://www.youtube.com/embed/iKD-2wDuKZ8"
-			frameborder="0"
-			allow="accelerometer; autoplay; encrypted-media; gyroscope;
-			picture-in-picture"
-			allowfullscreen 
-		/>
+		<video controls name="media" class="video">
+			<source src="/assets/sitio_itaguacu_drone_video.mp4" type="video/mp4" />
+		</video>
 		<a href="gallery" class="link-pictures">Galeria de Fotos</a>
 	</div>
 </section>
