@@ -17,6 +17,8 @@
 	}
 </style>
 
+<svelte:window on:scrollY|passive on:touchstart|passive />
+
 <Nav />
 
 <main>
