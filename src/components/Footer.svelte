@@ -36,7 +36,7 @@
 </style>
 
 <footer>
-	<p>© 2020 Sítio Itaguaçú</p>
+	<p>© 2021 Sítio Itaguaçú</p>
 	<div class="social-media">
 		<a href="https://instagram.com/sitioitaguacu">
 			<img src="assets/instagram-icon.svg" alt="Instagram">
