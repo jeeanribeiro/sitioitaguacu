@@ -10,6 +10,6 @@
 	}
 </style>
 
-<a href="https://api.whatsapp.com/send?phone=5511933767244&text=Ol%C3%A1!+estou+entrando+em+contato+atrav%C3%A9s+do+site+do+S%C3%ADtio+Itagua%C3%A7%C3%BA&source&data&app_absent&lang=pt_br" class="whatsapp">
+<a href="https://api.whatsapp.com/send?phone=5511911100667&text=Ol%C3%A1!+estou+entrando+em+contato+atrav%C3%A9s+do+site+do+S%C3%ADtio+Itagua%C3%A7%C3%BA&source&data&app_absent&lang=pt_br" class="whatsapp">
 	<img src="assets/whatsapp-icon.svg" alt="Whatsapp" />
 </a>
