@@ -14,6 +14,17 @@
 	}
 </script>
 
+<section id="gallery" class="gallery">
+	<ul>
+		{#each Array(72) as _, i}
+			<li><img src={`/assets/gallery/thumb-${i}.jpg`} alt="Sítio Itaguaçú" on:click={openModal} id={i}></li>
+		{/each}
+	</ul>
+</section>
+<div id="modal" class="overlay" bind:this={modal} on:click={closeModal}>
+	<img src="" alt="Sítio Itaguaçú" bind:this={img} />
+</div>
+
 <style>
 	.gallery {
 		margin-top: 60px;
@@ -75,15 +86,3 @@
 		}
 	}
 </style>
-
-<section id="gallery" class="gallery">
-	<ul>
-		{#each Array(72) as _, i}
-			<li><img src={`/assets/gallery/thumb-${i}.jpg`} alt="Sítio Itaguaçú" on:click={openModal} id={i}></li>
-		{/each}
-	</ul>
-</section>
-
-<div id="modal" class="overlay" bind:this={modal} on:click={closeModal}>
-	<img src="" alt="Sítio Itaguaçú" bind:this={img} />
-</div>

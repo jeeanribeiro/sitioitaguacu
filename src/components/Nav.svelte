@@ -19,6 +19,21 @@
 	}
 </script>
 
+<svelte:window on:click={handleClick}></svelte:window>
+
+<nav bind:this={nav}>
+	<div class="burger-container" bind:this={burger}>
+		<div class="burger"></div>
+	</div>
+	<ul bind:this={navList}>
+		<li><a href="/">Home</a></li>
+		<li><a href="#structure">Estrutura</a></li>
+		<li><a href="#calendar">Calendário</a></li>
+		<li><a href="#location">Localização</a></li>
+		<li><a href="gallery">Galeria</a></li>
+	</ul>
+</nav>
+
 <style>
 	nav {
 		align-items: center;
@@ -110,18 +125,3 @@
 		}
 	}
 </style>
-
-<svelte:window on:click={handleClick}></svelte:window>
-
-<nav bind:this={nav}>
-	<div class="burger-container" bind:this={burger}>
-		<div class="burger"></div>
-	</div>
-	<ul bind:this={navList}>
-		<li><a href="/">Home</a></li>
-		<li><a href="#structure">Estrutura</a></li>
-		<li><a href="#calendar">Calendário</a></li>
-		<li><a href="#location">Localização</a></li>
-		<li><a href="gallery">Galeria</a></li>
-	</ul>
-</nav>

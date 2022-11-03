@@ -1,4 +1,26 @@
+<section id="location" class="location">
+	<div class="content container">
+		<h1>Localização</h1>
+		<iframe
+			title="map"
+			class="map"
+			id="gmap_canvas"
+			src="https://maps.google.com/maps?q=S%C3%ADtio%20Itagua%C3%A7%C3%BA&t=k&z=13&ie=UTF8&iwloc=&output=embed"
+			frameborder="0"
+			scrolling="no"
+			marginheight="0"
+			marginwidth="0" 
+		/>
+		<p>Estrada Municipal do Baygton, 155 - Vale Tranquilo, Embu-Guaçu - SP, 06900-000</p>
+	</div>
+</section>
+
 <style>
+	.location {
+		background-color: #353;
+		color: white;
+	}
+
 	.location .content {
 		flex-direction: column;
 		width: 100%;
@@ -20,20 +42,3 @@
 		font-weight: 700;
 	}
 </style>
-
-<section id="location" class="location">
-	<div class="content container">
-		<h1>Localização</h1>
-		<iframe
-			title="map"
-			class="map"
-			id="gmap_canvas"
-			src="https://maps.google.com/maps?q=S%C3%ADtio%20Itagua%C3%A7%C3%BA&t=k&z=13&ie=UTF8&iwloc=&output=embed"
-			frameborder="0"
-			scrolling="no"
-			marginheight="0"
-			marginwidth="0" 
-		/>
-		<p>Estrada Municipal do Baygton, 155 - Vale Tranquilo, Embu-Guaçu - SP, 06900-000</p>
-	</div>
-</section>

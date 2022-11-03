@@ -1,3 +1,8 @@
+<header>
+	<img src="assets/main.jpg" class="main-image" alt="Casa principal, casa de bonecas, piscina e churrasqueira" />
+	<img src="assets/logo-sitio.png" class="logo" alt="Logo">
+</header>
+
 <style>
 	header {
 		align-items: center;
@@ -15,8 +20,3 @@
 		width: 40vmin;
 	}
 </style>
-
-<header>
-	<img src="assets/main.jpg" class="main-image" alt="Casa principal, casa de bonecas, piscina e churrasqueira" />
-	<img src="assets/logo-sitio.png" class="logo" alt="Logo">
-</header>

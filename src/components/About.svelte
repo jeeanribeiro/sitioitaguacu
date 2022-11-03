@@ -1,33 +1,3 @@
-<style>
-	.about {
-		background-color: #353;
-		color: white;
-	}
-
-	.about .content {
-		align-items: center;
-	}
-
-	.about .content * {
-		flex: 1;
-	}
-
-	.about .content h1 {
-		text-transform: uppercase;
-	}
-
-	.about .content p {
-		font-size: 0.9rem;
-		text-align: justify;
-	}
-
-	@media (max-width: 56em) {
-		.about .content {
-			flex-direction: column;
-		}
-	}
-</style>
-
 <section id="about" class="about">
 	<div class="content container">
 		<h1>Natureza e Lazer</h1>
@@ -52,3 +22,28 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	.about .content {
+		align-items: center;
+	}
+
+	.about .content * {
+		flex: 1;
+	}
+
+	.about .content h1 {
+		text-transform: uppercase;
+	}
+
+	.about .content p {
+		font-size: 0.9rem;
+		text-align: justify;
+	}
+
+	@media (max-width: 56em) {
+		.about .content {
+			flex-direction: column;
+		}
+	}
+</style>

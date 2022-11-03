@@ -1,3 +1,15 @@
+<footer>
+	<p>© 2022 Sítio Itaguaçú</p>
+	<div class="social-media">
+		<a href="https://instagram.com/sitioitaguacu">
+			<img src="assets/instagram-icon.svg" alt="Instagram">
+		</a>
+		<a href="https://facebook.com/sitioitaguacubr">
+			<img src="assets/facebook-icon.svg" alt="Facebook">
+		</a>
+	</div>
+</footer>
+
 <style>
 	footer {
 		align-items: center;
@@ -34,15 +46,3 @@
 		}
 	}
 </style>
-
-<footer>
-	<p>© 2022 Sítio Itaguaçú</p>
-	<div class="social-media">
-		<a href="https://instagram.com/sitioitaguacu">
-			<img src="assets/instagram-icon.svg" alt="Instagram">
-		</a>
-		<a href="https://facebook.com/sitioitaguacubr">
-			<img src="assets/facebook-icon.svg" alt="Facebook">
-		</a>
-	</div>
-</footer>

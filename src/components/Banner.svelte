@@ -1,3 +1,12 @@
+<div class="banner-container">
+	<h1 class="slide1">Pacote fim de ano</h1>
+	<div class="slide2">
+		<p>31/dez a 02/jan</p>
+		<h2>R$ 6.990</h2>
+	</div>
+</div>
+<div class="banner-space"></div>
+
 <style>
 	.banner-container {
 		align-items: center;
@@ -56,12 +65,3 @@
 		100% {opacity: 0};
 	}
 </style>
-
-<div class="banner-container">
-	<h1 class="slide1">Pacote fim de ano</h1>
-	<div class="slide2">
-		<p>31/dez a 02/jan</p>
-		<h2>R$ 6.990</h2>
-	</div>
-</div>
-<div class="banner-space"></div>
