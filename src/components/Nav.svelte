@@ -1,8 +1,8 @@
-<script>
-	let burger, nav, navList;
+<script lang="ts">
+	let burger: HTMLElement, nav: HTMLElement, navList: HTMLElement;
 
-	const handleClick = () => {
-		if (event.target === burger) {
+	function handleClick(event: MouseEvent): void {
+		if (event?.target === burger) {
 			if (nav.style.width !== "100%") {
 				nav.style.width = "100%";
 				navList.style.display = "flex";

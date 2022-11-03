@@ -1,8 +1,5 @@
 <script>
-	import Banner from '../components/Banner.svelte';
-	import Nav from '../components/Nav.svelte';
-	import Footer from '../components/Footer.svelte';
-	import Whatsapp from '../components/Whatsapp.svelte';
+	import { Footer, Nav, Whatsapp } from '@components';
 </script>
 
 <style>
@@ -17,7 +14,7 @@
 	}
 </style>
 
-<svelte:window on:scrollY|passive on:touchstart|passive />
+<svelte:window on:scroll|passive on:touchstart|passive />
 
 <Nav />
 

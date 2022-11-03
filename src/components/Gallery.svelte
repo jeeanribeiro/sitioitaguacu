@@ -1,27 +1,51 @@
-<script>
-	let modal, img;
+<script lang="ts">
+	let modal: HTMLElement, img: HTMLImageElement;
 
-	const openModal = () => {
-		modal.style.visibility = "visible";
-		modal.style.opacity = 1;
-		img.src = `/assets/gallery/sitio-${event.target.id}.jpg`;
+	function openModal(event: MouseEvent): void {
+		if (modal) {
+			modal.style.visibility = 'visible';
+			modal.style.opacity = '1';
+			img.src = `/assets/gallery/sitio-${(event.target as HTMLElement)?.id}.jpg`;
+		}
 	}
 
-	const closeModal = () => {
-		modal.style.visibility = "hidden";
-		modal.style.opacity = 0;
-		img.src = "";
+	function closeModal(): void {
+		if (modal) {
+			modal.style.visibility = 'hidden';
+			modal.style.opacity = '0';
+			img.src = '';
+		}
+	}
+
+	function handleKeyDownOpen(event: KeyboardEvent): void {
+		if (event.key === 'Enter') {
+			closeModal();
+		}
+	}
+
+	function handleKeyDownClose(event: KeyboardEvent): void {
+		if (event.key === 'Escape') {
+			closeModal();
+		}
 	}
 </script>
 
 <section id="gallery" class="gallery">
 	<ul>
 		{#each Array(72) as _, i}
-			<li><img src={`/assets/gallery/thumb-${i}.jpg`} alt="Sítio Itaguaçú" on:click={openModal} id={i}></li>
+			<li>
+				<img
+					src={`/assets/gallery/thumb-${i}.jpg`}
+					alt="Sítio Itaguaçú"
+					id={i.toString()}
+					on:click={openModal}
+					on:keydown={handleKeyDownOpen}
+				>
+			</li>
 		{/each}
 	</ul>
 </section>
-<div id="modal" class="overlay" bind:this={modal} on:click={closeModal}>
+<div id="modal" class="overlay" bind:this={modal} on:click={closeModal} on:keydown={handleKeyDownClose}>
 	<img src="" alt="Sítio Itaguaçú" bind:this={img} />
 </div>
 
