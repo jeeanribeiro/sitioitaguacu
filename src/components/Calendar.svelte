@@ -1,26 +1,52 @@
+<script lang="ts">
+	import FullCalendar, { type CalendarOptions } from 'svelte-fullcalendar';
+	import daygridPlugin from '@fullcalendar/daygrid';
+	import '@fullcalendar/core/locales/pt-br';
+	import googleCalendarPlugin from '@fullcalendar/google-calendar';
+
+	let options: CalendarOptions = {
+		initialView: 'dayGridMonth',
+		plugins: [daygridPlugin, googleCalendarPlugin],
+		locale: 'pt-br',
+		googleCalendarApiKey: 'AIzaSyDHCWvLYTDdKOne_hT2DPmey37O9lp4_7Q',
+		events: {
+			googleCalendarId: 'i8d1fph0lmoogopcosjhvl98hg@group.calendar.google.com'
+		},
+		eventColor: '#ee6b6e',
+		height: 'auto',
+		buttonText: {
+			today: 'hoje',
+			month: 'mês',
+			week: 'semana',
+			day: 'dia',
+			list: 'lista'
+		}
+	};
+</script>
+
 <section id="calendar" class="calendar">
 	<div class="content container">
 		<h1>Calendário</h1>
-		<iframe
-			title="calendar"
-			id="calendarFrame"
-			name="calendarFrame"
-			src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FSao_Paulo&amp;src=aThkMWZwaDBsbW9vZ29wY29zamh2bDk4aGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23D81B60&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;showDate=1&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0"
-			style="border: 0"
-			frameborder="0"
-			scrolling="no" 
-		/>
+		<full-calendar>
+			<FullCalendar {options} />
+		</full-calendar>
 	</div>
-	<div id="calendarContainer"></div>
+	<div id="calendarContainer" />
 </section>
 
 <style>
 	.calendar {
 		background-color: #353;
+	}
+
+	.calendar h1 {
+		background-color: #353;
 		color: white;
 	}
 
 	.calendar .content {
+		background-color: white;
+		padding: 1rem;
 		flex-direction: column;
 		width: 100%;
 	}
@@ -30,19 +56,30 @@
 		text-transform: uppercase;
 	}
 
-	.calendar .content iframe {
+	full-calendar {
 		background-color: white;
-		border-radius: 20px;
-		filter: grayscale(1);
-		font-size: 1px;
-		height: 600px;
-		margin-top: 16px;
-		padding-top: 20px;
 	}
 
-	@media (max-width: 56em) {
-		.calendar .content iframe {
-			height: 300px;
+	:global(.fc-event-title, .fc-event-time) {
+		display: none !important;
+	}
+
+	:global(.fc-event-title-container::after) {
+		color: white;
+		content: 'ocupado';
+		display: inline-block;
+		margin-left: 0.5rem;
+	}
+
+	@media (max-width: 768px) {
+		:global(.fc-toolbar-title) {
+			font-size: 1.3rem !important;
+		}
+	}
+
+	@media (max-width: 320px) {
+		:global(.fc-toolbar-title) {
+			font-size: 0.9rem !important;
 		}
 	}
 </style>

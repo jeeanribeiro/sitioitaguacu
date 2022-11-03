@@ -40,12 +40,18 @@
 					id={i.toString()}
 					on:click={openModal}
 					on:keydown={handleKeyDownOpen}
-				>
+				/>
 			</li>
 		{/each}
 	</ul>
 </section>
-<div id="modal" class="overlay" bind:this={modal} on:click={closeModal} on:keydown={handleKeyDownClose}>
+<div
+	id="modal"
+	class="overlay"
+	bind:this={modal}
+	on:click={closeModal}
+	on:keydown={handleKeyDownClose}
+>
 	<img src="" alt="Sítio Itaguaçú" bind:this={img} />
 </div>
 
@@ -81,7 +87,7 @@
 	}
 
 	.overlay {
-		align-items: center;;
+		align-items: center;
 		background-color: rgba(0, 0, 0, 0.75);
 		bottom: 0;
 		display: flex;

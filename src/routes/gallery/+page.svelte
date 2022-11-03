@@ -1,5 +1,5 @@
 <script>
-	import { Gallery } from "@components";
+	import { Gallery } from '@components';
 </script>
 
 <svelte:head>

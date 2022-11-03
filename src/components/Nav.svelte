@@ -3,27 +3,27 @@
 
 	function handleClick(event: MouseEvent): void {
 		if (event?.target === burger) {
-			if (nav.style.width !== "100%") {
-				nav.style.width = "100%";
-				navList.style.display = "flex";
+			if (nav.style.width !== '100%') {
+				nav.style.width = '100%';
+				navList.style.display = 'flex';
 			} else {
-				nav.style.width = "3rem";
-				navList.style.display = "none";
+				nav.style.width = '3rem';
+				navList.style.display = 'none';
 			}
 		} else {
-			if (nav.style.width === "100%") {
-				nav.style.width = "3rem";
-				navList.style.display = "none";
+			if (nav.style.width === '100%') {
+				nav.style.width = '3rem';
+				navList.style.display = 'none';
 			}
 		}
 	}
 </script>
 
-<svelte:window on:click={handleClick}></svelte:window>
+<svelte:window on:click={handleClick} />
 
 <nav bind:this={nav}>
 	<div class="burger-container" bind:this={burger}>
-		<div class="burger"></div>
+		<div class="burger" />
 	</div>
 	<ul bind:this={navList}>
 		<li><a href="/">Home</a></li>
