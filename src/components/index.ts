@@ -5,6 +5,5 @@ export { default as Gallery } from './Gallery.svelte';
 export { default as Header } from './Header.svelte';
 export { default as Location } from './Location.svelte';
 export { default as Nav } from './Nav.svelte';
-export { default as Calendar } from './Calendar.svelte';
 export { default as Structure } from './Structure.svelte';
 export { default as Whatsapp } from './Whatsapp.svelte';
