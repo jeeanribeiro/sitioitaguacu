@@ -2,7 +2,7 @@
 	import { Footer, Nav, Whatsapp } from '@components';
 </script>
 
-<svelte:window on:scroll|passive on:touchstart|passive />
+<svelte:window on:wheel|passive on:touchstart|passive />
 
 <Nav />
 
