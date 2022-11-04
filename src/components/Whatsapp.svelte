@@ -14,5 +14,6 @@
 		width: 64px;
 		margin-right: 5vmin;
 		margin-bottom: 5vmin;
+		z-index: 9999;
 	}
 </style>
