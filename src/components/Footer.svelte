@@ -1,5 +1,5 @@
 <footer>
-	<p>© 2022 Sítio Itaguaçú</p>
+	<p>© 2023 Sítio Itaguaçú</p>
 	<div class="social-media">
 		<a href="https://instagram.com/sitioitaguacu">
 			<img src="assets/instagram-icon.svg" alt="Instagram" />
