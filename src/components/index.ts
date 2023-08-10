@@ -1,4 +1,5 @@
 export { default as About } from './About.svelte';
+export { default as Banner } from './Banner.svelte';
 export { default as Calendar } from './Calendar.svelte';
 export { default as Footer } from './Footer.svelte';
 export { default as Gallery } from './Gallery.svelte';

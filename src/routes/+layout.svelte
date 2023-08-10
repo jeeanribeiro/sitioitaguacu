@@ -1,9 +1,10 @@
 <script>
-	import { Footer, Nav, Whatsapp } from '@components';
+	import { Banner, Footer, Nav, Whatsapp } from '@components';
 </script>
 
 <svelte:window on:wheel|passive on:touchstart|passive />
 
+<Banner />
 <Nav />
 
 <main>
