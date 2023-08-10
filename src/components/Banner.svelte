@@ -43,19 +43,5 @@
 		font-weight: 700;	
 		margin: 0;	
 		margin-left: 20px;	
-	}	
-	@keyframes slide1Fade {	
-		0% {opacity: 1};	
-		37.5% {opacity: 1};	
-		50% {opacity: 0};	
-		87.5% {opacity: 0};	
-		100% {opacity: 1};	
-	}	
-	@keyframes slide2Fade {	
-		0% {opacity: 0};	
-		37.5% {opacity: 0};	
-		50% {opacity: 1};	
-		87.5% {opacity: 1};	
-		100% {opacity: 0};	
-	}	
+	}
 </style>	
