@@ -13,7 +13,7 @@
 		background-color: rgba(255, 255, 255, 0.9);	
 		color: black;	
 		display: flex;	
-		height: 4rem;	
+		height: 3rem;	
 		justify-content: center;	
 		position: fixed;	
 		text-transform: uppercase;	
@@ -25,15 +25,17 @@
 		margin-bottom: 4rem;	
 	}	
 	.banner-container .slide1 {	
-		animation-duration: 8s;	
-		animation-iteration-count: infinite;	
+		animation-duration: 5s;	
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
 		animation-name: slide1Fade;	
 		margin: 0;	
 		font-weight: 700;	
 	}	
 	.banner-container .slide2 {	
-		animation-duration: 8s;	
-		animation-iteration-count: infinite;	
+		animation-duration: 5s;	
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
 		animation-name: slide2Fade;	
 		align-items: center;	
 		display: flex;	

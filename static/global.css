@@ -60,16 +60,10 @@ section {
 
 @keyframes slide1Fade {	
 	0% {opacity: 1};	
-	37.5% {opacity: 1};	
-	50% {opacity: 0};	
-	87.5% {opacity: 0};	
-	100% {opacity: 1};	
+	100% {opacity: 0};	
 }
 
 @keyframes slide2Fade {	
-	0% {opacity: 0};	
-	37.5% {opacity: 0};	
-	50% {opacity: 1};	
-	87.5% {opacity: 1};	
-	100% {opacity: 0};	
+	0% {opacity: 0};
+	100% {opacity: 1};	
 }
