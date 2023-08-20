@@ -4,8 +4,7 @@
 		<p>30/dez a 02/jan</p>	
 		<h2>R$ 11.990</h2>	
 	</div>	
-</div>	
-<div class="banner-space"></div>	
+</div>		
 
 <style>	
 	.banner-container {	
@@ -21,16 +20,14 @@
 		width: 100%;	
 		z-index: 9;	
 	}	
-	.banner-space {	
-		margin-bottom: 4rem;	
-	}	
 	.banner-container .slide1 {	
 		animation-duration: 5s;	
 		animation-iteration-count: infinite;
 		animation-direction: alternate;
 		animation-name: slide1Fade;	
 		margin: 0;	
-		font-weight: 700;	
+		font-weight: 700;
+		opacity: 0;
 	}	
 	.banner-container .slide2 {	
 		animation-duration: 5s;	
