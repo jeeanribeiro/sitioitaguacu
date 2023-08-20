@@ -19,7 +19,7 @@
 		top: 0;	
 		width: 100%;	
 		z-index: 9;	
-	}	
+	}
 	.banner-container .slide1 {	
 		animation-duration: 5s;	
 		animation-iteration-count: infinite;
@@ -28,6 +28,7 @@
 		margin: 0;	
 		font-weight: 700;
 		opacity: 0;
+		font-size: 1.2rem;
 	}	
 	.banner-container .slide2 {	
 		animation-duration: 5s;	
