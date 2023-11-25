@@ -2,7 +2,7 @@
 	<h1 class="slide1">Pacote fim de ano disponível!</h1>	
 	<div class="slide2">	
 		<p>30/dez a 02/jan</p>	
-		<h2>R$ 11.990</h2>	
+		<h2>R$ 8.990</h2>	
 	</div>	
 </div>		
 
