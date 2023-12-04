@@ -44,7 +44,7 @@
 		height: 4rem;
 		justify-content: center;
 		position: fixed;
-		top: 3rem;
+		top: 0;
 		transition-duration: 0.3s;
 		width: 100%;
 		z-index: 10;
