@@ -1,8 +1,8 @@
 <section id="location" class="location">
 	<div class="content container">
-		<h1>Localização</h1>
+		<h2>Localização</h2>
 		<iframe
-			title="map"
+			title="Mapa do Sítio Itaguaçú em Embu-Guaçu SP"
 			class="map"
 			id="gmap_canvas"
 			src="https://maps.google.com/maps?q=S%C3%ADtio%20Itagua%C3%A7%C3%BA&t=k&z=13&ie=UTF8&iwloc=&output=embed"
@@ -10,6 +10,7 @@
 			scrolling="no"
 			marginheight="0"
 			marginwidth="0"
+			loading="lazy"
 		/>
 		<p>Estrada Municipal do Baygton, 155 - Vale Tranquilo, Embu-Guaçu - SP, 06900-000</p>
 	</div>
@@ -26,7 +27,7 @@
 		width: 100%;
 	}
 
-	.location .content h1 {
+	.location .content h2 {
 		text-transform: uppercase;
 		text-align: center;
 	}

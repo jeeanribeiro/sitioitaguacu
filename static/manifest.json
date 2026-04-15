@@ -1,10 +1,13 @@
 {
 	"background_color": "#ffffff",
 	"theme_color": "#333333",
-	"name": "Sítio Itaguaçú",
+	"name": "Sítio Itaguaçú - Casamentos, Eventos e Temporada em Embu-Guaçu",
 	"short_name": "Sítio Itaguaçú",
+	"description": "Sítio com cachoeira privativa para casamentos, eventos e temporada. A 47km de São Paulo, em Embu-Guaçu.",
 	"display": "minimal-ui",
 	"start_url": "/",
+	"lang": "pt-BR",
+	"categories": ["travel", "lifestyle"],
 	"icons": [
 		{
 			"src": "assets/logo-192.png",

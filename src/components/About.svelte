@@ -1,6 +1,6 @@
 <section id="about" class="about">
 	<div class="content container">
-		<h1>Natureza e Lazer</h1>
+		<h2>Natureza e Lazer</h2>
 		<div class="text">
 			<p>
 				O Sítio Itaguaçú é uma propriedade privada destinada à aluguéis de fim de semana, temporada,
@@ -30,7 +30,7 @@
 		flex: 1;
 	}
 
-	.about .content h1 {
+	.about .content h2 {
 		text-transform: uppercase;
 	}
 

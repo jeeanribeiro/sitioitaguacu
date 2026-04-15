@@ -27,10 +27,12 @@
 	</div>
 	<ul bind:this={navList}>
 		<li><a href="/">Home</a></li>
-		<li><a href="#structure">Estrutura</a></li>
-		<li><a href="#calendar">Calendário</a></li>
-		<li><a href="#location">Localização</a></li>
-		<li><a href="gallery">Galeria</a></li>
+		<li><a href="/casamento">Casamento</a></li>
+		<li><a href="/fim-de-semana">Fim de Semana</a></li>
+		<li><a href="/eventos-corporativos">Corporativo</a></li>
+		<li><a href="/cachoeira">Cachoeira</a></li>
+		<li><a href="/gallery">Galeria</a></li>
+		<li><a href="/blog">Blog</a></li>
 	</ul>
 </nav>
 
@@ -55,7 +57,8 @@
 		justify-content: space-between;
 		margin: 0;
 		padding: 0;
-		min-width: 56em;
+		min-width: 48em;
+		gap: 0.5em;
 	}
 
 	li {
@@ -74,7 +77,7 @@
 		color: #797;
 	}
 
-	@media (max-width: 56em) {
+	@media (max-width: 52em) {
 		nav {
 			background-color: rgba(0, 0, 0, 0.75);
 			flex-direction: column;

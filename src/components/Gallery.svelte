@@ -36,8 +36,9 @@
 			<li>
 				<img
 					src={`/assets/gallery/thumb-${i}.jpg`}
-					alt="Sítio Itaguaçú"
+					alt={`Foto ${i + 1} do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu`}
 					id={i.toString()}
+					loading="lazy"
 					on:click={openModal}
 					on:keydown={handleKeyDownOpen}
 				/>

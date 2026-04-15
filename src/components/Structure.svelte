@@ -1,6 +1,6 @@
 <section id="structure" class="structure">
 	<div class="content container">
-		<h1>Estrutura</h1>
+		<h2>Estrutura</h2>
 		<p>
 			No total são seis suítes e um quarto, comportam até 34 pessoas em camas confortavelmente. A
 			cozinha é bem completa com eletrodomésticos modernos, panelas e fogão industriais e grande
@@ -11,8 +11,9 @@
 			área do sítio permite a realização para eventos de até 400 pessoas e comporta um grande número
 			de carros.
 		</p>
-		<video controls name="media" class="video">
+		<video controls class="video" preload="metadata" aria-label="Vídeo aéreo do Sítio Itaguaçú mostrando a estrutura e cachoeira">
 			<source src="/assets/sitio_itaguacu_drone_video.mp4" type="video/mp4" />
+			Seu navegador não suporta vídeos HTML5.
 		</video>
 		<a href="gallery" class="link-pictures">Galeria de Fotos</a>
 	</div>
@@ -28,7 +29,7 @@
 		flex-direction: column;
 	}
 
-	.structure .content h1 {
+	.structure .content h2 {
 		text-transform: uppercase;
 	}
 

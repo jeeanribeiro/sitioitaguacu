@@ -1,3 +1,8 @@
-# https://www.robotstxt.org/robotstxt.html
+# Robots.txt for Sítio Itaguaçú
+# https://sitioitaguacu.com.br
+
 User-agent: *
-Disallow:
+Allow: /
+
+# Sitemap location
+Sitemap: https://sitioitaguacu.com.br/sitemap.xml

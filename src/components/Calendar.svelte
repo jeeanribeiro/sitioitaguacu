@@ -26,7 +26,7 @@
 
 <section id="calendar" class="calendar">
 	<div class="content container">
-		<h1>Calendário</h1>
+		<h2>Calendário</h2>
 		<full-calendar>
 			<FullCalendar {options} />
 		</full-calendar>
@@ -39,7 +39,7 @@
 		background-color: #353;
 	}
 
-	.calendar h1 {
+	.calendar h2 {
 		background-color: #353;
 		color: white;
 	}
@@ -51,7 +51,7 @@
 		width: 100%;
 	}
 
-	.calendar .content h1 {
+	.calendar .content h2 {
 		text-align: center;
 		text-transform: uppercase;
 	}
