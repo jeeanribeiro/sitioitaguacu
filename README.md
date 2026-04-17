@@ -7,7 +7,7 @@ Institutional website for [Sítio Itaguaçú](https://sitioitaguacu.com.br), a v
 - [SvelteKit](https://kit.svelte.dev/) 2 + Svelte 5 (runes)
 - TypeScript
 - Vite
-- [Netlify adapter](https://kit.svelte.dev/docs/adapter-netlify) for deploy
+- [Cloudflare adapter](https://kit.svelte.dev/docs/adapter-cloudflare) for deploy
 - Playwright for e2e tests
 - pnpm as package manager
 
@@ -58,4 +58,4 @@ tests/              # Playwright tests
 
 ## Deploy
 
-Deployed on Netlify via `@sveltejs/adapter-netlify`. Build config in [netlify.toml](netlify.toml).
+Deployed on Cloudflare Pages via `@sveltejs/adapter-cloudflare`. Build command (`pnpm run build`) and output directory (`.svelte-kit/cloudflare`) are configured in the Cloudflare dashboard.

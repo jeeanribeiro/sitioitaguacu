@@ -22,7 +22,7 @@
 		"@neoconfetti/svelte": "2.2.2",
 		"@playwright/test": "1.59.1",
 		"@sveltejs/adapter-auto": "7.0.1",
-		"@sveltejs/adapter-netlify": "6.0.4",
+		"@sveltejs/adapter-cloudflare": "7.2.8",
 		"@sveltejs/kit": "2.57.1",
 		"@sveltejs/vite-plugin-svelte": "7.0.0",
 		"@types/cookie": "1.0.0",
@@ -44,6 +44,8 @@
 	},
 	"type": "module",
 	"pnpm": {
-		"onlyBuiltDependencies": ["esbuild"]
+		"onlyBuiltDependencies": [
+			"esbuild"
+		]
 	}
 }

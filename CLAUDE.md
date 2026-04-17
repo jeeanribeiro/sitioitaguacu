@@ -4,14 +4,14 @@ Guidance for Claude Code when working in this repo.
 
 ## Project
 
-SvelteKit 2 + Svelte 5 site for Sítio Itaguaçú (wedding/event venue in Embu-Guaçu, SP). Content is in **Portuguese (pt-BR)**; code, identifiers, and commits are in **English**. Deployed on Netlify.
+SvelteKit 2 + Svelte 5 site for Sítio Itaguaçú (wedding/event venue in Embu-Guaçu, SP). Content is in **Portuguese (pt-BR)**; code, identifiers, and commits are in **English**. Deployed on Cloudflare Pages.
 
 ## Stack
 
 - Svelte 5 with **runes** (`$props`, `$state`, `$derived`, `$effect`) — do not use legacy `export let` or reactive `$:` in new code.
 - TypeScript + `svelte-check`.
 - Vite.
-- `@sveltejs/adapter-netlify`.
+- `@sveltejs/adapter-cloudflare`.
 - Playwright for e2e (`pnpm test` builds + previews before running).
 - pnpm (see `pnpm-lock.yaml`). Do not use npm or yarn.
 
@@ -41,7 +41,7 @@ SvelteKit 2 + Svelte 5 site for Sítio Itaguaçú (wedding/event venue in Embu-G
 
 ## Deploy
 
-Netlify builds with `pnpm run build` and publishes `build/` (see [netlify.toml](netlify.toml)). No environment variables required at build time.
+Cloudflare Pages builds with `pnpm run build` and publishes `.svelte-kit/cloudflare`. Build settings are configured in the Cloudflare dashboard; there is no in-repo deploy config. No environment variables required at build time.
 
 ## Don't
 
