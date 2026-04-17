@@ -1,7 +1,3 @@
-<script>
-	import { Whatsapp } from '@components';
-</script>
-
 <svelte:head>
 	<title>Casamento no Campo com Cachoeira - Sítio Itaguaçú | Embu-Guaçu SP</title>
 	<meta name="description" content="Realize seu casamento dos sonhos no Sítio Itaguaçú. Cachoeira privativa, capacidade para 400 convidados, 6 suítes para noivos e padrinhos. A 47km de São Paulo." />

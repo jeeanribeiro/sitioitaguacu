@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <svelte:head>
 	<title>Aluguel de Sítio para Fim de Semana com Cachoeira | Embu-Guaçu SP</title>
 	<meta name="description" content="Alugue o Sítio Itaguaçú para seu fim de semana. Cachoeira privativa, piscina, churrasqueira, 6 suítes para 34 pessoas. A 47km de São Paulo em Embu-Guaçu." />

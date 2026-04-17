@@ -1,0 +1,116 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - list [ref=e4]:
+      - listitem [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e7]:
+        - link "Casamento" [ref=e8] [cursor=pointer]:
+          - /url: /casamento
+      - listitem [ref=e9]:
+        - link "Fim de Semana" [ref=e10] [cursor=pointer]:
+          - /url: /fim-de-semana
+      - listitem [ref=e11]:
+        - link "Corporativo" [ref=e12] [cursor=pointer]:
+          - /url: /eventos-corporativos
+      - listitem [ref=e13]:
+        - link "Cachoeira" [ref=e14] [cursor=pointer]:
+          - /url: /cachoeira
+      - listitem [ref=e15]:
+        - link "Galeria" [ref=e16] [cursor=pointer]:
+          - /url: /gallery
+      - listitem [ref=e17]:
+        - link "Blog" [ref=e18] [cursor=pointer]:
+          - /url: /blog
+  - main [ref=e19]:
+    - main [ref=e20]:
+      - generic [ref=e22]:
+        - heading "Casamento no Campo em Embu-Guaçu" [level=1] [ref=e23]
+        - paragraph [ref=e24]: Com cachoeira privativa a 47km de São Paulo
+      - generic [ref=e25]:
+        - heading "Seu Casamento dos Sonhos na Natureza" [level=2] [ref=e26]
+        - paragraph [ref=e27]: Imagine trocar alianças ao pôr do sol, com o som da cachoeira ao fundo e a Mata Atlântica como cenário. No Sítio Itaguaçú, seu casamento no campo se torna uma experiência inesquecível para você e seus convidados.
+        - paragraph [ref=e28]: Localizado em Embu-Guaçu, a apenas 47km de São Paulo, oferecemos a combinação perfeita entre a tranquilidade do campo e a praticidade de estar perto da capital.
+      - generic [ref=e30]:
+        - heading "Por que Casar no Sítio Itaguaçú?" [level=2] [ref=e31]
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - heading "Cachoeira Privativa" [level=3] [ref=e34]
+            - paragraph [ref=e35]: "Nosso maior diferencial: uma cachoeira exclusiva dentro da propriedade. Perfeita para fotos únicas e um cenário que seus convidados nunca esquecerão."
+          - generic [ref=e36]:
+            - heading "Capacidade para 400 Pessoas" [level=3] [ref=e37]
+            - paragraph [ref=e38]: Amplo espaço para cerimônias e recepções de todos os tamanhos. Desde casamentos intimistas até grandes celebrações.
+          - generic [ref=e39]:
+            - heading "Hospedagem no Local" [level=3] [ref=e40]
+            - paragraph [ref=e41]: 6 suítes confortáveis que acomodam até 34 pessoas. Ideal para noivos, padrinhos e familiares passarem a noite sem preocupação.
+          - generic [ref=e42]:
+            - heading "Estrutura Completa" [level=3] [ref=e43]
+            - paragraph [ref=e44]: Espaço Gourmet com churrasqueira, cozinha industrial, piscina, salão de jogos e amplo estacionamento.
+      - generic [ref=e45]:
+        - heading "Espaços para Cerimônia e Recepção" [level=2] [ref=e46]
+        - generic [ref=e47]:
+          - heading "Cerimônia ao Ar Livre" [level=3] [ref=e48]
+          - paragraph [ref=e49]: Jardim amplo com vista para a mata, perfeito para cerimônias ao pôr do sol. A cachoeira pode servir como altar natural para fotos espetaculares.
+        - generic [ref=e50]:
+          - heading "Espaço Gourmet" [level=3] [ref=e51]
+          - paragraph [ref=e52]: Área coberta ideal para recepções, com churrasqueira, bar rústico, mesas bistrô inclusas e espaço para DJ ou banda.
+        - generic [ref=e53]:
+          - heading "Área da Piscina" [level=3] [ref=e54]
+          - paragraph [ref=e55]: Para casamentos mais descontraídos no estilo pool party, com área kids para os pequenos convidados.
+      - generic [ref=e57]:
+        - heading "O que Está Incluído" [level=2] [ref=e58]
+        - list [ref=e59]:
+          - listitem [ref=e60]: ✓ Uso exclusivo da propriedade por 24 horas ou mais
+          - listitem [ref=e61]: ✓ 6 suítes com capacidade para 34 pessoas
+          - listitem [ref=e62]: ✓ Espaço Gourmet completo com churrasqueira
+          - listitem [ref=e63]: ✓ Cozinha industrial equipada
+          - listitem [ref=e64]: ✓ Mesas e cadeiras para até 100 pessoas (adicional sob consulta)
+          - listitem [ref=e65]: ✓ Estacionamento para aproximadamente 80 veículos
+          - listitem [ref=e66]: ✓ Acesso à cachoeira e áreas naturais
+          - listitem [ref=e67]: ✓ Piscina e área de lazer
+          - listitem [ref=e68]: ✓ Salão de jogos
+      - generic [ref=e69]:
+        - heading "Perguntas Frequentes sobre Casamentos" [level=2] [ref=e70]
+        - generic [ref=e71]:
+          - heading "Posso levar meu próprio buffet?" [level=3] [ref=e72]
+          - paragraph [ref=e73]: Sim! Você tem total liberdade para contratar o buffet, decoração e fornecedores de sua preferência. Nossa cozinha industrial está preparada para receber qualquer equipe.
+        - generic [ref=e74]:
+          - heading "Qual o horário de entrada e saída?" [level=3] [ref=e75]
+          - paragraph [ref=e76]: O check-in é às 14h e o check-out às 12h do dia seguinte. Para casamentos, recomendamos reservar ao menos 2 diárias para montagem, evento e desmontagem com tranquilidade.
+        - generic [ref=e77]:
+          - heading "Vocês oferecem pacotes para casamento?" [level=3] [ref=e78]
+          - paragraph [ref=e79]: Trabalhamos com locação do espaço. Cada casal personaliza seu evento contratando os fornecedores que preferir. Podemos indicar parceiros de confiança da região.
+        - generic [ref=e80]:
+          - heading "É possível fazer a cerimônia religiosa no local?" [level=3] [ref=e81]
+          - paragraph [ref=e82]: Sim! Muitos casais realizam cerimônias ecumênicas ou religiosas em nosso jardim. O espaço é versátil e se adapta a diferentes estilos de celebração.
+        - generic [ref=e83]:
+          - heading "Como funciona em caso de chuva?" [level=3] [ref=e84]
+          - paragraph [ref=e85]: O Espaço Gourmet é coberto e comporta confortavelmente a cerimônia e recepção em caso de chuva. Recomendamos sempre ter um plano B para eventos ao ar livre.
+      - generic [ref=e87]:
+        - heading "Agende sua Visita" [level=2] [ref=e88]
+        - paragraph [ref=e89]: Venha conhecer pessoalmente o espaço e se apaixonar. Agende uma visita sem compromisso pelo WhatsApp.
+        - link "Falar no WhatsApp" [ref=e90] [cursor=pointer]:
+          - /url: https://wa.me/5511999999999?text=Olá! Gostaria de agendar uma visita para conhecer o espaço para casamento.
+      - generic [ref=e91]:
+        - heading "Localização" [level=2] [ref=e92]
+        - paragraph [ref=e93]:
+          - strong [ref=e94]: "Endereço:"
+          - text: Estrada Municipal do Baygton, 155 - Vale Tranquilo, Embu-Guaçu - SP
+        - paragraph [ref=e95]:
+          - strong [ref=e96]: "Distância de São Paulo:"
+          - text: 47km (aproximadamente 1 hora de carro)
+        - paragraph [ref=e97]:
+          - link "Ver no mapa" [ref=e98] [cursor=pointer]:
+            - /url: /#location
+  - link "Whatsapp":
+    - /url: https://api.whatsapp.com/send?phone=5511911100667&text=Ol%C3%A1!+estou+entrando+em+contato+atrav%C3%A9s+do+site+do+S%C3%ADtio+Itagua%C3%A7%C3%BA&source&data&app_absent&lang=pt_br
+    - img "Whatsapp" [ref=e99] [cursor=pointer]
+  - contentinfo [ref=e100]:
+    - paragraph [ref=e101]: © 2023 Sítio Itaguaçú
+    - generic [ref=e102]:
+      - link "Instagram" [ref=e103] [cursor=pointer]:
+        - /url: https://instagram.com/sitioitaguacu
+        - img "Instagram" [ref=e104]
+      - link "Facebook" [ref=e105] [cursor=pointer]:
+        - /url: https://facebook.com/sitioitaguacubr
+        - img "Facebook" [ref=e106]

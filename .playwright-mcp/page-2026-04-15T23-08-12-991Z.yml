@@ -1,0 +1,74 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - list [ref=e4]:
+      - listitem [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e7]:
+        - link "Casamento" [ref=e8] [cursor=pointer]:
+          - /url: /casamento
+      - listitem [ref=e9]:
+        - link "Fim de Semana" [ref=e10] [cursor=pointer]:
+          - /url: /fim-de-semana
+      - listitem [ref=e11]:
+        - link "Corporativo" [ref=e12] [cursor=pointer]:
+          - /url: /eventos-corporativos
+      - listitem [ref=e13]:
+        - link "Cachoeira" [ref=e14] [cursor=pointer]:
+          - /url: /cachoeira
+      - listitem [ref=e15]:
+        - link "Galeria" [ref=e16] [cursor=pointer]:
+          - /url: /gallery
+      - listitem [ref=e17]:
+        - link "Blog" [ref=e18] [cursor=pointer]:
+          - /url: /blog
+  - main [ref=e19]:
+    - main [ref=e20]:
+      - generic [ref=e22]:
+        - heading "Blog do Sítio Itaguaçú" [level=1] [ref=e23]
+        - paragraph [ref=e24]: Dicas, inspirações e guias para seus momentos especiais
+      - generic [ref=e26]:
+        - article [ref=e27]:
+          - generic [ref=e28]: Casamentos
+          - heading "Quanto Custa Casar no Campo em 2026?" [level=2] [ref=e29]:
+            - link "Quanto Custa Casar no Campo em 2026?" [ref=e30] [cursor=pointer]:
+              - /url: /blog/quanto-custa-casar-no-campo
+          - paragraph [ref=e31]: "Guia completo de custos para seu casamento no campo: locação, buffet, decoração e dicas para economizar."
+          - time [ref=e32]: 14 de janeiro de 2026
+          - link "Ler mais →" [ref=e33] [cursor=pointer]:
+            - /url: /blog/quanto-custa-casar-no-campo
+        - article [ref=e34]:
+          - generic [ref=e35]: Dicas
+          - heading "Os 7 Melhores Sítios com Cachoeira perto de São Paulo" [level=2] [ref=e36]:
+            - link "Os 7 Melhores Sítios com Cachoeira perto de São Paulo" [ref=e37] [cursor=pointer]:
+              - /url: /blog/melhores-sitios-cachoeira-sp
+          - paragraph [ref=e38]: Seleção dos melhores sítios com cachoeira para aluguel de temporada, eventos e casamentos na região de SP.
+          - time [ref=e39]: 9 de janeiro de 2026
+          - link "Ler mais →" [ref=e40] [cursor=pointer]:
+            - /url: /blog/melhores-sitios-cachoeira-sp
+        - article [ref=e41]:
+          - generic [ref=e42]: Dicas
+          - 'heading "O que Levar para um Fim de Semana no Sítio: Checklist Completo" [level=2] [ref=e43]':
+            - 'link "O que Levar para um Fim de Semana no Sítio: Checklist Completo" [ref=e44] [cursor=pointer]':
+              - /url: /blog/o-que-levar-fim-de-semana-sitio
+          - paragraph [ref=e45]: Lista completa do que não pode faltar na sua mala para aproveitar ao máximo o fim de semana na natureza.
+          - time [ref=e46]: 4 de janeiro de 2026
+          - link "Ler mais →" [ref=e47] [cursor=pointer]:
+            - /url: /blog/o-que-levar-fim-de-semana-sitio
+      - generic [ref=e49]:
+        - heading "Receba Nossas Dicas" [level=2] [ref=e50]
+        - paragraph [ref=e51]: Cadastre-se para receber conteúdos exclusivos sobre casamentos, eventos e dicas para aproveitar a natureza.
+        - link "Receber pelo WhatsApp" [ref=e52] [cursor=pointer]:
+          - /url: https://wa.me/5511999999999?text=Olá! Gostaria de receber novidades do Sítio Itaguaçú.
+  - link "Whatsapp":
+    - /url: https://api.whatsapp.com/send?phone=5511911100667&text=Ol%C3%A1!+estou+entrando+em+contato+atrav%C3%A9s+do+site+do+S%C3%ADtio+Itagua%C3%A7%C3%BA&source&data&app_absent&lang=pt_br
+    - img "Whatsapp" [ref=e53] [cursor=pointer]
+  - contentinfo [ref=e54]:
+    - paragraph [ref=e55]: © 2023 Sítio Itaguaçú
+    - generic [ref=e56]:
+      - link "Instagram" [ref=e57] [cursor=pointer]:
+        - /url: https://instagram.com/sitioitaguacu
+        - img "Instagram" [ref=e58]
+      - link "Facebook" [ref=e59] [cursor=pointer]:
+        - /url: https://facebook.com/sitioitaguacubr
+        - img "Facebook" [ref=e60]

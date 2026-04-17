@@ -38,7 +38,7 @@
 		text-align: justify;
 	}
 
-	.structure iframe {
+	.structure video {
 		height: 50vmin;
 		width: 100%;
 	}

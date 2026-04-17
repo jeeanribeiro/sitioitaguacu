@@ -1,0 +1,256 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - list [ref=e4]:
+      - listitem [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e7]:
+        - link "Casamento" [ref=e8] [cursor=pointer]:
+          - /url: /casamento
+      - listitem [ref=e9]:
+        - link "Fim de Semana" [ref=e10] [cursor=pointer]:
+          - /url: /fim-de-semana
+      - listitem [ref=e11]:
+        - link "Corporativo" [ref=e12] [cursor=pointer]:
+          - /url: /eventos-corporativos
+      - listitem [ref=e13]:
+        - link "Cachoeira" [ref=e14] [cursor=pointer]:
+          - /url: /cachoeira
+      - listitem [ref=e15]:
+        - link "Galeria" [ref=e16] [cursor=pointer]:
+          - /url: /gallery
+      - listitem [ref=e17]:
+        - link "Blog" [ref=e18] [cursor=pointer]:
+          - /url: /blog
+  - main [ref=e19]:
+    - list [ref=e21]:
+      - listitem [ref=e22]:
+        - button "Foto 1 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e23] [cursor=pointer]:
+          - img "Foto 1 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e24]
+      - listitem [ref=e25]:
+        - button "Foto 2 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e26] [cursor=pointer]:
+          - img "Foto 2 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e27]
+      - listitem [ref=e28]:
+        - button "Foto 3 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [active] [ref=e29] [cursor=pointer]:
+          - img "Foto 3 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e30]
+      - listitem [ref=e31]:
+        - button "Foto 4 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e32] [cursor=pointer]:
+          - img "Foto 4 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e33]
+      - listitem [ref=e34]:
+        - button "Foto 5 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e35] [cursor=pointer]:
+          - img "Foto 5 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e36]
+      - listitem [ref=e37]:
+        - button "Foto 6 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e38] [cursor=pointer]:
+          - img "Foto 6 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e39]
+      - listitem [ref=e40]:
+        - button "Foto 7 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e41] [cursor=pointer]:
+          - img "Foto 7 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e42]
+      - listitem [ref=e43]:
+        - button "Foto 8 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e44] [cursor=pointer]:
+          - img "Foto 8 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e45]
+      - listitem [ref=e46]:
+        - button "Foto 9 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e47] [cursor=pointer]:
+          - img "Foto 9 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e48]
+      - listitem [ref=e49]:
+        - button "Foto 10 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e50] [cursor=pointer]:
+          - img "Foto 10 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e51]
+      - listitem [ref=e52]:
+        - button "Foto 11 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e53] [cursor=pointer]:
+          - img "Foto 11 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e54]
+      - listitem [ref=e55]:
+        - button "Foto 12 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e56] [cursor=pointer]:
+          - img "Foto 12 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e57]
+      - listitem [ref=e58]:
+        - button "Foto 13 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e59] [cursor=pointer]:
+          - img "Foto 13 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e60]
+      - listitem [ref=e61]:
+        - button "Foto 14 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e62] [cursor=pointer]:
+          - img "Foto 14 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e63]
+      - listitem [ref=e64]:
+        - button "Foto 15 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e65] [cursor=pointer]:
+          - img "Foto 15 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e66]
+      - listitem [ref=e67]:
+        - button "Foto 16 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e68] [cursor=pointer]:
+          - img "Foto 16 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e69]
+      - listitem [ref=e70]:
+        - button "Foto 17 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e71] [cursor=pointer]:
+          - img "Foto 17 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e72]
+      - listitem [ref=e73]:
+        - button "Foto 18 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e74] [cursor=pointer]:
+          - img "Foto 18 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e75]
+      - listitem [ref=e76]:
+        - button "Foto 19 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e77] [cursor=pointer]:
+          - img "Foto 19 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e78]
+      - listitem [ref=e79]:
+        - button "Foto 20 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e80] [cursor=pointer]:
+          - img "Foto 20 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e81]
+      - listitem [ref=e82]:
+        - button "Foto 21 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e83] [cursor=pointer]:
+          - img "Foto 21 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e84]
+      - listitem [ref=e85]:
+        - button "Foto 22 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e86] [cursor=pointer]:
+          - img "Foto 22 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e87]
+      - listitem [ref=e88]:
+        - button "Foto 23 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e89] [cursor=pointer]:
+          - img "Foto 23 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e90]
+      - listitem [ref=e91]:
+        - button "Foto 24 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e92] [cursor=pointer]:
+          - img "Foto 24 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e93]
+      - listitem [ref=e94]:
+        - button "Foto 25 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e95] [cursor=pointer]:
+          - img "Foto 25 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e96]
+      - listitem [ref=e97]:
+        - button "Foto 26 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e98] [cursor=pointer]:
+          - img "Foto 26 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e99]
+      - listitem [ref=e100]:
+        - button "Foto 27 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e101] [cursor=pointer]:
+          - img "Foto 27 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e102]
+      - listitem [ref=e103]:
+        - button "Foto 28 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e104] [cursor=pointer]:
+          - img "Foto 28 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e105]
+      - listitem [ref=e106]:
+        - button "Foto 29 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e107] [cursor=pointer]:
+          - img "Foto 29 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e108]
+      - listitem [ref=e109]:
+        - button "Foto 30 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e110] [cursor=pointer]:
+          - img "Foto 30 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e111]
+      - listitem [ref=e112]:
+        - button "Foto 31 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e113] [cursor=pointer]:
+          - img "Foto 31 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e114]
+      - listitem [ref=e115]:
+        - button "Foto 32 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e116] [cursor=pointer]:
+          - img "Foto 32 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e117]
+      - listitem [ref=e118]:
+        - button "Foto 33 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e119] [cursor=pointer]:
+          - img "Foto 33 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e120]
+      - listitem [ref=e121]:
+        - button "Foto 34 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e122] [cursor=pointer]:
+          - img "Foto 34 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e123]
+      - listitem [ref=e124]:
+        - button "Foto 35 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e125] [cursor=pointer]:
+          - img "Foto 35 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e126]
+      - listitem [ref=e127]:
+        - button "Foto 36 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e128] [cursor=pointer]:
+          - img "Foto 36 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e129]
+      - listitem [ref=e130]:
+        - button "Foto 37 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e131] [cursor=pointer]:
+          - img "Foto 37 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e132]
+      - listitem [ref=e133]:
+        - button "Foto 38 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e134] [cursor=pointer]:
+          - img "Foto 38 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e135]
+      - listitem [ref=e136]:
+        - button "Foto 39 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e137] [cursor=pointer]:
+          - img "Foto 39 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e138]
+      - listitem [ref=e139]:
+        - button "Foto 40 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e140] [cursor=pointer]:
+          - img "Foto 40 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e141]
+      - listitem [ref=e142]:
+        - button "Foto 41 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e143] [cursor=pointer]:
+          - img "Foto 41 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e144]
+      - listitem [ref=e145]:
+        - button "Foto 42 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e146] [cursor=pointer]:
+          - img "Foto 42 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e147]
+      - listitem [ref=e148]:
+        - button "Foto 43 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e149] [cursor=pointer]:
+          - img "Foto 43 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e150]
+      - listitem [ref=e151]:
+        - button "Foto 44 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e152] [cursor=pointer]:
+          - img "Foto 44 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e153]
+      - listitem [ref=e154]:
+        - button "Foto 45 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e155] [cursor=pointer]:
+          - img "Foto 45 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e156]
+      - listitem [ref=e157]:
+        - button "Foto 46 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e158] [cursor=pointer]:
+          - img "Foto 46 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e159]
+      - listitem [ref=e160]:
+        - button "Foto 47 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e161] [cursor=pointer]:
+          - img "Foto 47 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e162]
+      - listitem [ref=e163]:
+        - button "Foto 48 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e164] [cursor=pointer]:
+          - img "Foto 48 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e165]
+      - listitem [ref=e166]:
+        - button "Foto 49 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e167] [cursor=pointer]:
+          - img "Foto 49 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e168]
+      - listitem [ref=e169]:
+        - button "Foto 50 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e170] [cursor=pointer]:
+          - img "Foto 50 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e171]
+      - listitem [ref=e172]:
+        - button "Foto 51 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e173] [cursor=pointer]:
+          - img "Foto 51 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e174]
+      - listitem [ref=e175]:
+        - button "Foto 52 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e176] [cursor=pointer]:
+          - img "Foto 52 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e177]
+      - listitem [ref=e178]:
+        - button "Foto 53 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e179] [cursor=pointer]:
+          - img "Foto 53 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e180]
+      - listitem [ref=e181]:
+        - button "Foto 54 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e182] [cursor=pointer]:
+          - img "Foto 54 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e183]
+      - listitem [ref=e184]:
+        - button "Foto 55 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e185] [cursor=pointer]:
+          - img "Foto 55 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e186]
+      - listitem [ref=e187]:
+        - button "Foto 56 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e188] [cursor=pointer]:
+          - img "Foto 56 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e189]
+      - listitem [ref=e190]:
+        - button "Foto 57 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e191] [cursor=pointer]:
+          - img "Foto 57 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e192]
+      - listitem [ref=e193]:
+        - button "Foto 58 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e194] [cursor=pointer]:
+          - img "Foto 58 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e195]
+      - listitem [ref=e196]:
+        - button "Foto 59 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e197] [cursor=pointer]:
+          - img "Foto 59 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e198]
+      - listitem [ref=e199]:
+        - button "Foto 60 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e200] [cursor=pointer]:
+          - img "Foto 60 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e201]
+      - listitem [ref=e202]:
+        - button "Foto 61 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e203] [cursor=pointer]:
+          - img "Foto 61 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e204]
+      - listitem [ref=e205]:
+        - button "Foto 62 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e206] [cursor=pointer]:
+          - img "Foto 62 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e207]
+      - listitem [ref=e208]:
+        - button "Foto 63 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e209] [cursor=pointer]:
+          - img "Foto 63 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e210]
+      - listitem [ref=e211]:
+        - button "Foto 64 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e212] [cursor=pointer]:
+          - img "Foto 64 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e213]
+      - listitem [ref=e214]:
+        - button "Foto 65 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e215] [cursor=pointer]:
+          - img "Foto 65 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e216]
+      - listitem [ref=e217]:
+        - button "Foto 66 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e218] [cursor=pointer]:
+          - img "Foto 66 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e219]
+      - listitem [ref=e220]:
+        - button "Foto 67 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e221] [cursor=pointer]:
+          - img "Foto 67 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e222]
+      - listitem [ref=e223]:
+        - button "Foto 68 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e224] [cursor=pointer]:
+          - img "Foto 68 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e225]
+      - listitem [ref=e226]:
+        - button "Foto 69 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e227] [cursor=pointer]:
+          - img "Foto 69 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e228]
+      - listitem [ref=e229]:
+        - button "Foto 70 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e230] [cursor=pointer]:
+          - img "Foto 70 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e231]
+      - listitem [ref=e232]:
+        - button "Foto 71 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e233] [cursor=pointer]:
+          - img "Foto 71 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e234]
+      - listitem [ref=e235]:
+        - button "Foto 72 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e236] [cursor=pointer]:
+          - img "Foto 72 do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu" [ref=e237]
+    - dialog [ref=e247]:
+      - img "Sítio Itaguaçú" [ref=e248]
+  - link "Whatsapp":
+    - /url: https://api.whatsapp.com/send?phone=5511911100667&text=Ol%C3%A1!+estou+entrando+em+contato+atrav%C3%A9s+do+site+do+S%C3%ADtio+Itagua%C3%A7%C3%BA&source&data&app_absent&lang=pt_br
+    - img "Whatsapp" [ref=e238] [cursor=pointer]
+  - contentinfo [ref=e239]:
+    - paragraph [ref=e240]: © 2023 Sítio Itaguaçú
+    - generic [ref=e241]:
+      - link "Instagram" [ref=e242] [cursor=pointer]:
+        - /url: https://instagram.com/sitioitaguacu
+        - img "Instagram" [ref=e243]
+      - link "Facebook" [ref=e244] [cursor=pointer]:
+        - /url: https://facebook.com/sitioitaguacubr
+        - img "Facebook" [ref=e245]

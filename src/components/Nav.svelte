@@ -19,11 +19,11 @@
 	}
 </script>
 
-<svelte:window on:click={handleClick} />
+<svelte:window onclick={handleClick} />
 
 <nav bind:this={nav}>
 	<div class="burger-container" bind:this={burger}>
-		<div class="burger" />
+		<div class="burger"></div>
 	</div>
 	<ul bind:this={navList}>
 		<li><a href="/">Home</a></li>

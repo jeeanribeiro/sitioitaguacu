@@ -1,0 +1,180 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - list [ref=e4]:
+      - listitem [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e7]:
+        - link "Casamento" [ref=e8] [cursor=pointer]:
+          - /url: /casamento
+      - listitem [ref=e9]:
+        - link "Fim de Semana" [ref=e10] [cursor=pointer]:
+          - /url: /fim-de-semana
+      - listitem [ref=e11]:
+        - link "Corporativo" [ref=e12] [cursor=pointer]:
+          - /url: /eventos-corporativos
+      - listitem [ref=e13]:
+        - link "Cachoeira" [ref=e14] [cursor=pointer]:
+          - /url: /cachoeira
+      - listitem [ref=e15]:
+        - link "Galeria" [ref=e16] [cursor=pointer]:
+          - /url: /gallery
+      - listitem [ref=e17]:
+        - link "Blog" [ref=e18] [cursor=pointer]:
+          - /url: /blog
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - img "Vista aérea do Sítio Itaguaçú com casa principal, piscina e churrasqueira em Embu-Guaçu" [ref=e21]
+      - generic [ref=e22]:
+        - img "Sítio Itaguaçú - Eventos e Temporada em Embu-Guaçu" [ref=e23]
+        - heading "Sítio Itaguaçú - Casamentos, Eventos e Temporada com Cachoeira em Embu-Guaçu SP" [level=1] [ref=e24]
+    - generic [ref=e26]:
+      - heading "Calendário" [level=2] [ref=e27]
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - heading "abril de 2026" [level=2] [ref=e32]
+          - generic [ref=e33]:
+            - button "hoje" [disabled] [ref=e34]
+            - generic [ref=e35]:
+              - button "Previous mês" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]: 
+              - button "Next mês" [ref=e38] [cursor=pointer]:
+                - img [ref=e39]: 
+        - generic "abril de 2026" [ref=e40]:
+          - grid [ref=e42]:
+            - rowgroup [ref=e43]:
+              - row "domingo segunda-feira terça-feira quarta-feira quinta-feira sexta-feira sábado" [ref=e47]:
+                - columnheader "domingo" [ref=e48]:
+                  - generic "domingo" [ref=e50]: dom.
+                - columnheader "segunda-feira" [ref=e51]:
+                  - generic "segunda-feira" [ref=e53]: seg.
+                - columnheader "terça-feira" [ref=e54]:
+                  - generic "terça-feira" [ref=e56]: ter.
+                - columnheader "quarta-feira" [ref=e57]:
+                  - generic "quarta-feira" [ref=e59]: qua.
+                - columnheader "quinta-feira" [ref=e60]:
+                  - generic "quinta-feira" [ref=e62]: qui.
+                - columnheader "sexta-feira" [ref=e63]:
+                  - generic "sexta-feira" [ref=e65]: sex.
+                - columnheader "sábado" [ref=e66]:
+                  - generic "sábado" [ref=e68]: sáb.
+            - rowgroup [ref=e69]:
+              - generic [ref=e72]:
+                - row "29 de março de 2026 30 de março de 2026 31 de março de 2026 1 de abril de 2026 2 de abril de 2026 3 de abril de 2026 4 de abril de 2026" [ref=e74]:
+                  - gridcell "29 de março de 2026" [ref=e75]:
+                    - generic "29 de março de 2026" [ref=e78]: "29"
+                  - gridcell "30 de março de 2026" [ref=e80]:
+                    - generic "30 de março de 2026" [ref=e83]: "30"
+                  - gridcell "31 de março de 2026" [ref=e85]:
+                    - generic "31 de março de 2026" [ref=e88]: "31"
+                  - gridcell "1 de abril de 2026" [ref=e90]:
+                    - generic "1 de abril de 2026" [ref=e93]: "1"
+                  - gridcell "2 de abril de 2026" [ref=e95]:
+                    - generic "2 de abril de 2026" [ref=e98]: "2"
+                  - gridcell "3 de abril de 2026" [ref=e100]:
+                    - generic "3 de abril de 2026" [ref=e103]: "3"
+                  - gridcell "4 de abril de 2026" [ref=e105]:
+                    - generic "4 de abril de 2026" [ref=e108]: "4"
+                - row "5 de abril de 2026 6 de abril de 2026 7 de abril de 2026 8 de abril de 2026 9 de abril de 2026 10 de abril de 2026 11 de abril de 2026" [ref=e110]:
+                  - gridcell "5 de abril de 2026" [ref=e111]:
+                    - generic "5 de abril de 2026" [ref=e114]: "5"
+                  - gridcell "6 de abril de 2026" [ref=e116]:
+                    - generic "6 de abril de 2026" [ref=e119]: "6"
+                  - gridcell "7 de abril de 2026" [ref=e121]:
+                    - generic "7 de abril de 2026" [ref=e124]: "7"
+                  - gridcell "8 de abril de 2026" [ref=e126]:
+                    - generic "8 de abril de 2026" [ref=e129]: "8"
+                  - gridcell "9 de abril de 2026" [ref=e131]:
+                    - generic "9 de abril de 2026" [ref=e134]: "9"
+                  - gridcell "10 de abril de 2026" [ref=e136]:
+                    - generic "10 de abril de 2026" [ref=e139]: "10"
+                  - gridcell "11 de abril de 2026" [ref=e141]:
+                    - generic "11 de abril de 2026" [ref=e144]: "11"
+                - row "12 de abril de 2026 13 de abril de 2026 14 de abril de 2026 15 de abril de 2026 16 de abril de 2026 17 de abril de 2026 18 de abril de 2026" [ref=e146]:
+                  - gridcell "12 de abril de 2026" [ref=e147]:
+                    - generic "12 de abril de 2026" [ref=e150]: "12"
+                  - gridcell "13 de abril de 2026" [ref=e152]:
+                    - generic "13 de abril de 2026" [ref=e155]: "13"
+                  - gridcell "14 de abril de 2026" [ref=e157]:
+                    - generic "14 de abril de 2026" [ref=e160]: "14"
+                  - gridcell "15 de abril de 2026" [ref=e162]:
+                    - generic "15 de abril de 2026" [ref=e165]: "15"
+                  - gridcell "16 de abril de 2026" [ref=e167]:
+                    - generic "16 de abril de 2026" [ref=e170]: "16"
+                  - gridcell "17 de abril de 2026" [ref=e172]:
+                    - generic "17 de abril de 2026" [ref=e175]: "17"
+                  - gridcell "18 de abril de 2026" [ref=e177]:
+                    - generic "18 de abril de 2026" [ref=e180]: "18"
+                - row "19 de abril de 2026 20 de abril de 2026 21 de abril de 2026 22 de abril de 2026 23 de abril de 2026 24 de abril de 2026 25 de abril de 2026" [ref=e182]:
+                  - gridcell "19 de abril de 2026" [ref=e183]:
+                    - generic "19 de abril de 2026" [ref=e186]: "19"
+                  - gridcell "20 de abril de 2026" [ref=e188]:
+                    - generic "20 de abril de 2026" [ref=e191]: "20"
+                  - gridcell "21 de abril de 2026" [ref=e193]:
+                    - generic "21 de abril de 2026" [ref=e196]: "21"
+                  - gridcell "22 de abril de 2026" [ref=e198]:
+                    - generic "22 de abril de 2026" [ref=e201]: "22"
+                  - gridcell "23 de abril de 2026" [ref=e203]:
+                    - generic "23 de abril de 2026" [ref=e206]: "23"
+                  - gridcell "24 de abril de 2026" [ref=e208]:
+                    - generic "24 de abril de 2026" [ref=e211]: "24"
+                  - gridcell "25 de abril de 2026" [ref=e213]:
+                    - generic "25 de abril de 2026" [ref=e216]: "25"
+                - row "26 de abril de 2026 27 de abril de 2026 28 de abril de 2026 29 de abril de 2026 30 de abril de 2026 1 de maio de 2026 2 de maio de 2026" [ref=e218]:
+                  - gridcell "26 de abril de 2026" [ref=e219]:
+                    - generic "26 de abril de 2026" [ref=e222]: "26"
+                  - gridcell "27 de abril de 2026" [ref=e224]:
+                    - generic "27 de abril de 2026" [ref=e227]: "27"
+                  - gridcell "28 de abril de 2026" [ref=e229]:
+                    - generic "28 de abril de 2026" [ref=e232]: "28"
+                  - gridcell "29 de abril de 2026" [ref=e234]:
+                    - generic "29 de abril de 2026" [ref=e237]: "29"
+                  - gridcell "30 de abril de 2026" [ref=e239]:
+                    - generic "30 de abril de 2026" [ref=e242]: "30"
+                  - gridcell "1 de maio de 2026" [ref=e244]:
+                    - generic "1 de maio de 2026" [ref=e247]: "1"
+                  - gridcell "2 de maio de 2026" [ref=e249]:
+                    - generic "2 de maio de 2026" [ref=e252]: "2"
+                - row "3 de maio de 2026 4 de maio de 2026 5 de maio de 2026 6 de maio de 2026 7 de maio de 2026 8 de maio de 2026 9 de maio de 2026" [ref=e254]:
+                  - gridcell "3 de maio de 2026" [ref=e255]:
+                    - generic "3 de maio de 2026" [ref=e258]: "3"
+                  - gridcell "4 de maio de 2026" [ref=e260]:
+                    - generic "4 de maio de 2026" [ref=e263]: "4"
+                  - gridcell "5 de maio de 2026" [ref=e265]:
+                    - generic "5 de maio de 2026" [ref=e268]: "5"
+                  - gridcell "6 de maio de 2026" [ref=e270]:
+                    - generic "6 de maio de 2026" [ref=e273]: "6"
+                  - gridcell "7 de maio de 2026" [ref=e275]:
+                    - generic "7 de maio de 2026" [ref=e278]: "7"
+                  - gridcell "8 de maio de 2026" [ref=e280]:
+                    - generic "8 de maio de 2026" [ref=e283]: "8"
+                  - gridcell "9 de maio de 2026" [ref=e285]:
+                    - generic "9 de maio de 2026" [ref=e288]: "9"
+    - generic [ref=e291]:
+      - heading "Estrutura" [level=2] [ref=e292]
+      - paragraph [ref=e293]: No total são seis suítes e um quarto, comportam até 34 pessoas em camas confortavelmente. A cozinha é bem completa com eletrodomésticos modernos, panelas e fogão industriais e grande número de utensílios diversos, para preparar os mais variados tipos de comida e servir os hóspedes. O Espaço Gourmet possui amplo espaço para confraternizações, churrasqueira, forno e fogão a lenha, freezer, bar rústico, vários conjuntos de mesas bistrô inclusas e caso haja um grande número de pessoas no evento temos cadeiras e mesas para serem alugadas à parte. A ampla área do sítio permite a realização para eventos de até 400 pessoas e comporta um grande número de carros.
+      - generic "Vídeo aéreo do Sítio Itaguaçú mostrando a estrutura e cachoeira" [ref=e294]: Seu navegador não suporta vídeos HTML5.
+      - link "Galeria de Fotos" [ref=e295] [cursor=pointer]:
+        - /url: gallery
+    - generic [ref=e297]:
+      - heading "Localização" [level=2] [ref=e298]
+      - iframe [ref=e299]:
+        
+      - paragraph [ref=e300]: Estrada Municipal do Baygton, 155 - Vale Tranquilo, Embu-Guaçu - SP, 06900-000
+    - generic [ref=e302]:
+      - heading "Natureza e Lazer" [level=2] [ref=e303]
+      - generic [ref=e304]:
+        - paragraph [ref=e305]: O Sítio Itaguaçú é uma propriedade privada destinada à aluguéis de fim de semana, temporada, casamentos, aniversários, formaturas e a mais variada gama de eventos possíveis. A cachoeira é a identidade natural de todo este espaço, sem contar toda a área de floresta preservada, lagos de pesca e área para camping. De fato uma fuga da vida urbana para a serenidade da natureza, que proporciona paz mental e espiritual.
+        - paragraph [ref=e306]: Além de todo o espaço natural, possuímos estrutura de hospedagem, lazer e entretenimento, como por exemplo, uma casa com cinco suítes, sala de estar com lareira, cozinha completa e um dormitório separado com duas suítes e um quarto. Salão de jogos com mesas de sinuca, pebolim e tênis de mesa. Piscina com área para crianças e altura máxima de 1,8 metros. Espaço Gourmet com churrasqueiras, freezer e espaço coberto para confraternizações. Playground, casa de boneca e minicampo com dois gols.
+  - link "Whatsapp":
+    - /url: https://api.whatsapp.com/send?phone=5511911100667&text=Ol%C3%A1!+estou+entrando+em+contato+atrav%C3%A9s+do+site+do+S%C3%ADtio+Itagua%C3%A7%C3%BA&source&data&app_absent&lang=pt_br
+    - img "Whatsapp" [ref=e307] [cursor=pointer]
+  - contentinfo [ref=e308]:
+    - paragraph [ref=e309]: © 2023 Sítio Itaguaçú
+    - generic [ref=e310]:
+      - link "Instagram" [ref=e311] [cursor=pointer]:
+        - /url: https://instagram.com/sitioitaguacu
+        - img "Instagram" [ref=e312]
+      - link "Facebook" [ref=e313] [cursor=pointer]:
+        - /url: https://facebook.com/sitioitaguacubr
+        - img "Facebook" [ref=e314]

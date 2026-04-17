@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <svelte:head>
 	<title>Evento Corporativo na Natureza - Sítio Itaguaçú | Embu-Guaçu SP</title>
 	<meta name="description" content="Realize seu evento corporativo no Sítio Itaguaçú. Confraternizações, team building, workshops em contato com a natureza. Até 400 pessoas, a 47km de SP." />

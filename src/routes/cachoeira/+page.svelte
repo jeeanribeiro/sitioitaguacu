@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <svelte:head>
 	<title>Sítio com Cachoeira Privativa perto de São Paulo | Embu-Guaçu SP</title>
 	<meta name="description" content="Conheça a cachoeira privativa do Sítio Itaguaçú em Embu-Guaçu. A apenas 47km de SP, nossa cachoeira exclusiva é perfeita para fotos, banhos e momentos inesquecíveis." />

@@ -1,10 +1,11 @@
 <script lang="ts">
-	import FullCalendar, { type CalendarOptions } from 'svelte-fullcalendar';
+	import FullCalendar from 'svelte-fullcalendar/src/FullCalendar.svelte';
+	import type { CalendarOptions } from '@fullcalendar/core';
 	import daygridPlugin from '@fullcalendar/daygrid';
 	import '@fullcalendar/core/locales/pt-br';
 	import googleCalendarPlugin from '@fullcalendar/google-calendar';
 
-	let options: CalendarOptions = {
+	const options: CalendarOptions = {
 		initialView: 'dayGridMonth',
 		plugins: [daygridPlugin, googleCalendarPlugin],
 		locale: 'pt-br',
@@ -31,7 +32,7 @@
 			<FullCalendar {options} />
 		</full-calendar>
 	</div>
-	<div id="calendarContainer" />
+	<div id="calendarContainer"></div>
 </section>
 
 <style>

@@ -1,13 +1,14 @@
-<script>
+<script lang="ts">
 	import { Footer, Nav, Whatsapp } from '@components';
-</script>
+	import type { Snippet } from 'svelte';
 
-<svelte:window on:wheel|passive on:touchstart|passive />
+	let { children }: { children: Snippet } = $props();
+</script>
 
 <Nav />
 
 <main>
-	<slot />
+	{@render children()}
 </main>
 
 <Whatsapp />

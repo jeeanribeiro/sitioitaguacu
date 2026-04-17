@@ -3,9 +3,11 @@
 
 	function openModal(event: MouseEvent): void {
 		if (modal) {
+			const target = (event.target as HTMLElement).closest('button')?.querySelector('img');
+			if (!target) return;
 			modal.style.visibility = 'visible';
 			modal.style.opacity = '1';
-			img.src = `/assets/gallery/sitio-${(event.target as HTMLElement)?.id}.jpg`;
+			img.src = `/assets/gallery/sitio-${target.id}.jpg`;
 		}
 	}
 
@@ -34,14 +36,14 @@
 	<ul>
 		{#each Array(72) as _, i}
 			<li>
-				<img
-					src={`/assets/gallery/thumb-${i}.jpg`}
-					alt={`Foto ${i + 1} do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu`}
-					id={i.toString()}
-					loading="lazy"
-					on:click={openModal}
-					on:keydown={handleKeyDownOpen}
-				/>
+				<button type="button" class="gallery-button" onclick={openModal} onkeydown={handleKeyDownOpen}>
+					<img
+						src={`/assets/gallery/thumb-${i}.jpg`}
+						alt={`Foto ${i + 1} do Sítio Itaguaçú - Espaço para eventos em Embu-Guaçu`}
+						id={i.toString()}
+						loading="lazy"
+					/>
+				</button>
 			</li>
 		{/each}
 	</ul>
@@ -49,9 +51,11 @@
 <div
 	id="modal"
 	class="overlay"
+	role="dialog"
+	tabindex="-1"
 	bind:this={modal}
-	on:click={closeModal}
-	on:keydown={handleKeyDownClose}
+	onclick={closeModal}
+	onkeydown={handleKeyDownClose}
 >
 	<img src="" alt="Sítio Itaguaçú" bind:this={img} />
 </div>
@@ -72,8 +76,14 @@
 	}
 
 	.gallery ul li {
-		cursor: pointer;
 		margin: 1rem;
+	}
+
+	.gallery-button {
+		background: none;
+		border: none;
+		padding: 0;
+		cursor: pointer;
 	}
 
 	.gallery ul li img {
